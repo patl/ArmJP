@@ -1,0 +1,1 @@
+parallel: --no-source --color --format pretty --format html --out report<%= ENV['TEST_ENV_NUMBER'] %>.html

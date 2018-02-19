@@ -1,0 +1,3598 @@
+[
+  {
+    "uri": "features/A1_HomePage/EmailSubscription.feature",
+    "id": "check-subscription-functionality-from-pop-up,-header-and-footer",
+    "keyword": "Feature",
+    "name": "Check subscription functionality from pop-up, header and footer",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A1_HomePage/EmailSubscription.feature:3:in `Given open the site'",
+              "duration": 157857681
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-subscription-functionality-from-pop-up,-header-and-footer;subscription-functionality-from-pop-up;;2",
+        "keyword": "Scenario Outline",
+        "name": "subscription functionality from pop-up",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user pres on sign up button",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:123"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see validation error for email Eメールアドレスを入力してください",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:127"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should ses validation error for privacy-policy You must accept the Privacy Policy",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:131"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills email field for email subscription pop-up with asd@",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:136"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see validation error for email 有効なEメールアドレスを入力してください",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:127"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills email field with email",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:142"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user checks the privacy policy",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:148"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user pres on sign up button",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:123"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see thank you pop-up",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:152"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 119053
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A1_HomePage/EmailSubscription.feature:3:in `Given open the site'",
+              "duration": 198696
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-subscription-functionality-from-pop-up,-header-and-footer;subscription-functionality-from-footer;;2",
+        "keyword": "Scenario Outline",
+        "name": "subscription functionality from footer",
+        "description": "",
+        "line": 41,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on subscribe button form footer",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:157"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see validation message for privacy and policy プライバシーポリシーをご承諾していただく必要があります",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:164"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see validation message for email_footer Eメールアドレスを入力してください",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:168"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user press on privacy and policy checkbox",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills email field from footer with incorrect email blabla@sd",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:177"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on subscribe button form footer",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:157"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see validation message for email_footer 有効なEメールアドレスを入力してください",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:168"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills email field from footer with incorrect email",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:182"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on subscribe button form footer",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:157"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see thank you pop-up",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:152"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 114537
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A1_HomePage/EmailSubscription.feature:3:in `Given open the site'",
+              "duration": 185148
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-subscription-functionality-from-pop-up,-header-and-footer;subscription-functionality-from-header;:;2",
+        "keyword": "Scenario Outline",
+        "name": "subscription functionality from header",
+        "description": "",
+        "line": 61,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "close the newsletter pop-up",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mousover on newsletter link from header",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:187"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see newsletter pop-up",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:191"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on subscribe button form pop-up",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:195"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see error message for email from pop-up Eメールアドレスを入力してください",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:199"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see error message for p&p <errorp&p>",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:203"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user press on privacy and policy checkbox from newsletter pop-up header",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:208"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills email field from email pop-up with incorrect email blabla@asd",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:212"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on subscribe button form pop-up",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:195"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see error message for email from pop-up 有効なEメールアドレスを入力してください",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:199"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills email field from footer with correct email from newsletter pop-up header",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:216"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on subscribe button form pop-up",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:195"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see thank you pop-up",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:152"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 61,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 108790
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/A1_HomePage/HomePage.feature",
+    "id": "check-the-hp-elements",
+    "keyword": "Feature",
+    "name": "Check the HP elements",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A1_HomePage/HomePage.feature:3:in `Given open the site'",
+              "duration": 182685
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-hp-elements;check-the-elements-on-the-hp;;2",
+        "keyword": "Scenario Outline",
+        "name": "Check the elements on the HP",
+        "description": "",
+        "line": 40,
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#And verify that payment icons are not present",
+            "line": 37
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "And ",
+            "name": "verify that Country selector isn't visible in header",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:85"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that user can see header",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that user can't see country sector",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:109"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can see stores",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can see logo",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:18"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can see 'Email sign up'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:22"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can see 'My account'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user can see 'Minicart'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:30"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user presses on Guaranteed Logo",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:94"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "close the Guaranteed pop-up",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verifies that  Guaranteed pop-up is closed",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:103"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user can see navigation menu",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mousover on the L1 1",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:38"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see L2",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see L3",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:49"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on search field",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:53"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see search field",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:57"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on search field",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:53"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "should field should be closed",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:61"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that 'olapic' section is not displayed",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:89"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that user can see Email field in the footer",
+            "line": 40,
+            "comments": [
+              {
+                "value": "#add other section",
+                "line": 31
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/HP.rb:66"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that find a store field is present in the footer",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:71"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that social links are present in the footer",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:75"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that footer navigation links are present",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/HP.rb:80"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 156822
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/A2_MyAccount/My_Account_EditAccountData.feature",
+    "id": "edit-account-information",
+    "keyword": "Feature",
+    "name": "edit account information",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A2_MyAccount/My_Account_EditAccountData.feature:3:in `Given open the site'",
+              "duration": 373171
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "edit-account-information;edit-personal-data;;2",
+        "keyword": "Scenario Outline",
+        "name": "Edit personal data",
+        "description": "",
+        "line": 36,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Log In pop-up",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that Social Log in section is present",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:12"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the email filed with oleksiy.boyko@osf-commerce.com",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:16"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the password field with Ogboiko!123",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user redirects to my account page ようこそ",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:115"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user presses on account settings link",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:218"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user presses on edit account button",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:224"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "fills first name field",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:61"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "fills last name field",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:66"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "fills email field",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:72"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on save button",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:229"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see pop-up",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:233"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on OK button",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:237"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user presses on account settings link",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:218"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verifies that data are changed",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:241"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user presses on edit account button",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:224"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the old email filed with oleksiy.boyko@osf-commerce.com",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:247"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on save button",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:229"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see pop-up",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:233"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on OK button",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:237"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 159285
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A2_MyAccount/My_Account_EditAccountData.feature:3:in `Given open the site'",
+              "duration": 295170
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "edit-account-information;change-password;;2",
+        "keyword": "Scenario Outline",
+        "name": "Change password",
+        "description": "",
+        "line": 76,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Log In pop-up",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that Social Log in section is present",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:12"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the email filed with oleksiy.boyko@osf-commerce.com",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:16"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the password field with Ogboiko!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user redirects to my account page ようこそ",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:115"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user presses on account settings link",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:218"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on change password button",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:194"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills old password field with Ogboiko!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:198"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills new password field with NewPass!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:202"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills confirmation password field with NewPass!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:206"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on confirmation button for reset password",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:210"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see confirmation page for reset password",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:214"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on  log out from account",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:181"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Log In pop-up",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that Social Log in section is present",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:12"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the email filed with oleksiy.boyko@osf-commerce.com",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:16"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the password field with NewPass!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user redirects to my account page ようこそ",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:115"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user presses on account settings link",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:218"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on change password button",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:194"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills old password field with NewPass!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:198"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills new password field with Ogboiko!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:202"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills confirmation password field with Ogboiko!123",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:206"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on confirmation button for reset password",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:210"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see confirmation page for reset password",
+            "line": 76,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:214"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 261507
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/A2_MyAccount/My_Account_LogIn.feature",
+    "id": "check-the-log-in-functionality",
+    "keyword": "Feature",
+    "name": "Check the log in functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A2_MyAccount/My_Account_LogIn.feature:3:in `Given open the site'",
+              "duration": 490171
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-log-in-functionality;check-log-in-functionality-from-pop-up;;2",
+        "keyword": "Scenario Outline",
+        "name": "Check log in functionality from pop-up",
+        "description": "",
+        "line": 28,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Log In pop-up",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that Social Log in section is present",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:12"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see validation message for email Eメールアドレスを入力してください",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:152"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see validation message for password パスワードを入力してください",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:156"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the email filed  ogboikogmail.com",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:160"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see validation message for wrong email 有効なEメールアドレスを入力してください",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:165"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the email filed with ogboiko@gmail.com",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:16"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the password with blablabla =! email",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:170"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see validation message for wrong password 申し訳ございませんが、登録されている情報と一致しません。入力内容を確認し、もう一度お試しください。",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:175"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills the password field with Ogboiko!123",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user redirects to my account page ようこそ",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:115"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Verify that user can see ようこそ + last name + first name + 様",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:254"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 200748
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A2_MyAccount/My_Account_LogIn.feature:3:in `Given open the site'",
+              "duration": 390413
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-log-in-functionality;check-the-reset-password-functionality-from-pop-up;;2",
+        "keyword": "Scenario Outline",
+        "name": "Check the reset password functionality from pop-up",
+        "description": "",
+        "line": 44,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Log In pop-up",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Forgot password link",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:121"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see reset password pop-up",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:125"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user fills email field for reset password with ogboiko@gmail.com",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:129"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "press on Send button for reset password",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:134"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Confirmation pop-up for reset password",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:138"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user presses on Close button for confirmation button",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:142"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Confirmation password pop-up is close",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:146"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 189254
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A2_MyAccount/My_Account_LogIn.feature:3:in `Given open the site'",
+              "duration": 337044
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-log-in-functionality;check-log-in-functionality-via-social-fb;;2",
+        "keyword": "Scenario Outline",
+        "name": "Check log in functionality via social FB",
+        "description": "",
+        "line": 58,
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "#When user press on FB icon",
+            "line": 49
+          },
+          {
+            "value": "#Then user fills email/phone to FB account with <email/phone>",
+            "line": 50
+          },
+          {
+            "value": "#And user fills password to FB account with <password>",
+            "line": 51
+          },
+          {
+            "value": "#When user presses on \"log in\" button",
+            "line": 52
+          },
+          {
+            "value": "#Then user should be logged in",
+            "line": 53
+          },
+          {
+            "value": "#ToDo the same for othe Cosial",
+            "line": 54
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 58,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Log In pop-up",
+            "line": 58,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 119053
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/A2_MyAccount/My_Account_Registration.feature",
+    "id": "check-the-log-in-functionality",
+    "keyword": "Feature",
+    "name": "Check the log in functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A2_MyAccount/My_Account_Registration.feature:3:in `Given open the site'",
+              "duration": 3085122
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-log-in-functionality;check-register-functionality-from-pop-up;;2",
+        "keyword": "Scenario Outline",
+        "name": "Check register functionality from pop-up",
+        "description": "",
+        "line": 38,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the Log In pop-up",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:7"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Registration button",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:34"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user redirects to Create account page",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:38"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that social icons are present",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:42"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills greeting by Mr",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:46"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills first name field",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:61"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills last name field",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:66"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills email field",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:72"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills confirmation email field",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:79"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills password field",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:84"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills confirmation password field",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:88"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills  Mobile number",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:92"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills Phone number",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:96"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "fills DoB by 01/02/1991",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:101"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user subscribe to the emails",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:107"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user presses on Create account button",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:111"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user redirects to my account page ようこそ",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:115"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on  log out from account",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:181"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mouseover on the My account link from header",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills email",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:185"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user fills password",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:189"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on Sign in button",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user redirects to my account page ようこそ",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/My_account.rb:115"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 129316
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/A3_CLP_PLP/CLP.feature",
+    "id": "check-the-clp-and-plp-functionality",
+    "keyword": "Feature",
+    "name": "Check the CLP and PLP functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A3_CLP_PLP/CLP.feature:3:in `Given open the site'",
+              "duration": 212243
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-clp-and-plp-functionality;verify-clp\\plp;;2",
+        "keyword": "Scenario Outline",
+        "name": "Verify clp\\plp",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mousover on the L1 1",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/HP.rb:38"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see L2",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/HP.rb:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user should see L3",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/HP.rb:49"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on the l1",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user do mousover on the L1 1",
+            "line": 20,
+            "comments": [
+              {
+                "value": "#Then user verify that l1 page included l1 title",
+                "line": 12
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/HP.rb:38"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "press on l2",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on sort by and selects price low to height",
+            "line": 20,
+            "comments": [
+              {
+                "value": "#Then user verify that l2 page is included l2 title",
+                "line": 15
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:18"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that products on the page are sorted correctly",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:23"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 114537
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/A4_QV_PDP/QV.feature",
+    "id": "check-the-qv-functionality",
+    "keyword": "Feature",
+    "name": "Check the QV functionality",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A4_QV_PDP/QV.feature:3:in `Given open the site'",
+              "duration": 215117
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-qv-functionality;verify-the-qv-pop-up-elements-and-add-product-to-wish-list-as-guest;;2",
+        "keyword": "Scenario Outline",
+        "name": "Verify the QV pop-up elements and add product to wish list as guest",
+        "description": "",
+        "line": 34,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mousover on the L1 1",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/HP.rb:38"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "press on l2",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on QV button",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:33"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see the QV pop-up",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that product image is present",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that Product name is present",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that Product description is present",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that product price is displayed",
+            "line": 34,
+            "comments": [
+              {
+                "value": "#And verify that Quantity is displayed",
+                "line": 16
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/QV.rb:22"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Verify that add to bag button is displayed",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:26"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Verify that Wish List icon is present",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:30"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "register pop-up is displayed",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:35"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills email with ogboiko@gmail.com from add to wish pop-up",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:69"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills password with Ogboiko!123 from add to wish pop-up",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:73"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on log in button from with pop-up",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:78"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see save result pop-up",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:82"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on go to wish list button from save result pop-up",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:86"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should be redirected to my account -> wish list page",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:90"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that added product is displayed in the list",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:94"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user press on delete link",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user shouldn't see added product in wish list",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/QV.rb:102"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 187611
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A4_QV_PDP/QV.feature:3:in `Given open the site'",
+              "duration": 218812
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-the-qv-functionality;verify-the-pdp-elements-and-add-product-to-wish-list-as-guest;;2",
+        "keyword": "Scenario Outline",
+        "name": "Verify the PDP elements and add product to wish list as guest",
+        "description": "",
+        "line": 60,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user do mousover on the L1 1",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/HP.rb:38"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "press on l2",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:9"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on PDP button",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:39"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "verify that product image is present on PDP",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:43"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that Product name is present on PDP",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:47"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that Product description is present on PDP",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:52"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that product price is displayed on PDP",
+            "line": 60,
+            "comments": [
+              {
+                "value": "#And verify that Quantity is displayed",
+                "line": 43
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/QV.rb:60"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Verify that add to bag button is displayed on PDP",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:64"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Verify that Wish List icon is present",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:30"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "register pop-up is displayed",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:35"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills email with ogboiko@gmail.com from add to wish pop-up",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:69"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user fills password with Ogboiko!123 from add to wish pop-up",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:73"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user press on log in button from with pop-up",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:78"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should see save result pop-up",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:82"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on go to wish list button from save result pop-up",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:86"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user should be redirected to my account -> wish list page",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:90"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "verify that added product is displayed in the list",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:94"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user press on delete link",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:98"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user shouldn't see added product in wish list",
+            "line": 60,
+            "match": {
+              "location": "features/step_definitions/QV.rb:102"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 195001
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/A6_NoProductPages/No_product_pages.feature",
+    "id": "check-no-product-pages",
+    "keyword": "Feature",
+    "name": "Check No Product pages",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A6_NoProductPages/No_product_pages.feature:3:in `Given open the site'",
+              "duration": 350181
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-no-product-pages;check-the-store-locator-page;;2",
+        "keyword": "Scenario Outline",
+        "name": "Check the Store locator page",
+        "description": "",
+        "line": 15,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "user press on store locator icon from header",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user checked the search filed Japan",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user checked the stores list",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user checked the map",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 112074
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "open the site",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/Settings.rb:20"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "not a file: \"C:\\\\Program Files (x86)\\\\Mozilla Firefox\\\\firefox.exe\" (Selenium::WebDriver::Error::WebDriverError)\n./features/step_definitions/Settings.rb:42:in `/^open the site$/'\nfeatures/A6_NoProductPages/No_product_pages.feature:3:in `Given open the site'",
+              "duration": 559550
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that newsletter pop-up is present",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/HP.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "close the newsletter pop-up",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/HP.rb:5"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "check-no-product-pages;check-the-search-functionality;;2",
+        "keyword": "Scenario Outline",
+        "name": "check the search functionality",
+        "description": "",
+        "line": 27,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "user press on search icon from heder",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:18"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user entered searchable word face",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:39"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user see search  suggestion list",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:23"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "press on search button for search",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:29"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user see the search result page",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/No_product_pages.rb:33"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click on sort by and selects price low to height",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:18"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user verify that products on the page are sorted correctly",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/CLP_PLP.rb:23"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:42"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `screenshot' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:44:in `After'",
+              "duration": 166674
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
